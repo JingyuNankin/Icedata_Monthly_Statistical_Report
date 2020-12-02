@@ -3,7 +3,7 @@ import numpy as np
 import sys
 
 #当前目录的data202011.xlsx为已经人工筛查完的数据表
-df = pd.read_excel(sys.path[0] + r"\\data202011.xlsx")
+df = pd.read_excel(sys.path[0] + r"\data202011.xlsx")
 
 vocalNames = ["洛天依","言和","乐正绫","乐正龙牙","徵羽摩柯","墨清弦",
               "星尘","心华","初音未来","赤羽","诗岸","苍穹","海伊",
@@ -78,4 +78,4 @@ for i in range(len(vocalNames)):
     resultDf = resultDf.append(newDF)
 #提示运行结束并保存结果
 print("运行完毕")
-resultDf.to_csv(sys.path[0] + r"\\result202011.csv")
+resultDf.to_csv(sys.path[0] + r"\result202011.csv")
