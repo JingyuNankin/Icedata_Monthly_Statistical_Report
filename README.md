@@ -1,0 +1,2 @@
+# Icedata_Monthly_Statistical_Report
+冰数据，哔哩哔哩弹幕视频网（BILIBILI）音乐区VOCALOID·UTAU分区《中文VOCALOID与Synthesizer V统计月报》相关程序
