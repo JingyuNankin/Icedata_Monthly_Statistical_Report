@@ -29,10 +29,10 @@
 将已经手工处理过的Excel表格保存好，该Excel表格需要包括'title'、'description'、'tag'、'play'、'favorites'这5列（字段），
 修改源代码中最前面与最后面的
 ```
-df = pd.read_excel(sys.path[0] + r"\\data202011.xlsx")
+df = pd.read_excel(sys.path[0] + r"\data202011.xlsx")
 ```
 和
 ```
-resultDf.to_csv(sys.path[0] + r"\\result202011.csv")
+resultDf.to_csv(sys.path[0] + r"\result202011.csv")
 ```
 中的参数，来修改欲读取的数据文件路径与保存路径。
